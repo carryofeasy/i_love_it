@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ILOVEIT | Курсы по веб-разработке</title>
+	<link rel="shortcut icon" href="images/Subtract.png" type="image">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+</head>
+<body>
+	<header>
+		<a href="#home" class="logo"><img src="images/logo_1.svg" alt="логотип_компании"></a>
+		<nav>
+			<div class="toggle" onclick="toggleMenu();"></div>
+			<ul class="menu">
+				<li><a href="#advantage">Преимущества</a></li>
+				<li><a href="#program">Программа</a></li>
+				<li><a href="#team">Преподаватели</a></li>
+				<li><a href="#sheldue">Расписание</a></li>
+				<li><a href="#contact">Контакты</a></l>
+			</ul>
+		</nav>
+	</header>
+	<section class="banner" id="home">
+		<div class="textBx">
+			<h2>Профессия<br><span>Веб-разработчик</span></h2>
+			<h3>Вы с нуля научитесь создавать полноценные сайты и веб-приложения. Освоите HTML, CSS, JavaScript и PHP, познакомитесь с фреймворками и станете востребованным веб-разработчиком. Даже если до этого не программировали.</h3>
+			<a href="#contact" class="btn">Записаться</a>
+		</div>
+		<video autoplay muted loop class="full-screen_video">
+			<source type="video/mp4" src="video/videoplayback.mp4" />
+		</video>
+		<audio preload  src="audio/icq.mp3" autoplay='autoplay' controls></audio>
+	</section>
+	<section class="advantage" id="advantage">
+		<div class="heading-white">
+			<h2>Как вы будете учиться</h2>
+			<p>Если понадобится перерыв, можно заморозить обучение или перейти на другой поток.</p>
+		</div>
+		<div class="content">
+			<div class="advantageBx">
+				<img src="images/pencil__1_.svg" alt="практика">
+				<h2>Практика на реальных проектах</h2>
+				<p>После каждой лекции будете делать практические задания, а затем получать развёрнутую обратную связь. Так наполните портфолио</p>
+			</div>
+			<div class="advantageBx">
+				<img src="images/chat.svg" alt="Сопровождение">
+				<h2>Сопровождение и поддержка кураторов</h2>
+				<p>Преподаватели будут постоянно на связи — в общем чате. А ещё у каждой группы будет команда поддержки, которая поможет, если будет сложно</p>
+			</div>
+			<div class="advantageBx">
+				<img src="images/work.svg" alt="стажировка">
+				<h2>Трудоустройство или стажировка</h2>
+				<p>Поможем оформить резюме, составить сопроводительное письмо, найти стажировку и подготовиться к собеседованию</p>
+			</div>
+
+			</div>
+		</div>
+	</section>
+	<section class="program" id="program">
+		<div class="accordion-container">
+			<div class="heading">
+				<h2>Программа курса</h2>
+				<p>Вас ждут 70 часов теории и 140 часов практики</p>
+			</div>
+			<div class="accordion">
+				<div class="accordion-header">
+					<span class="icon">+</span>
+					<h3>HTML-вёрстка</h3>
+				</div>
+				<div class="accordion-body">Научитесь верстать сайты на HTML и CSS и вносить изменения в существующую вёрстку. По итогам этого модуля вы уже самостоятельно сверстаете лендинг.
+					<ul>
+						<li>Теги для вёрстки контента страницы</li>
+						<li>Теги для вёрстки структуры страницы</li>
+						<li>Теги для вёрстки форм</li>
+						<li>Селекторы CSS</li>
+						<li>Определение контекста элементов</li>
+						<li>Блочная модель</li>
+						<li>Позиционирование элементов</li>
+						<li>Оформление текста</li>
+						<li>Оформление декоративных элементов</li>
+						<li>Состояние интерактивных элементов</li>
+						<li>Выполнение проекта по итогам модуля: вёрстка макета сайта — 24 часа практики</li>
+					</ul>
+				</div>
+			</div>
+			<div class="accordion">
+				<div class="accordion-header">
+					<span class="icon">+</span>
+					<h3>Aдаптивная вёрстка</h3>
+				</div>
+				<div class="accordion-body">Получите опыт, который позволит стать незаменимым звеном в проектировании и создании современных отзывчивых веб-интерфейсов. Сможете верстать сайты для всех типов устройств.</div>
+			</div>
+			<div class="accordion">
+				<div class="accordion-header">
+					<span class="icon">+</span>
+					<h3>Основы JavaScript</h3>
+				</div>
+				<div class="accordion-body">Глубже погрузитесь в JavaScript — один из самых популярных и гибких языков программирования. Начнёте с азов синтаксиса, узнаете, как работает сайт, и за 8 первых занятий напишете своё первое веб-приложение (онлайн-сервис для торговли криптовалютой). Далее узнаете о дополнительных возможностях, которые дает браузер. Подключив скрипт к HTML-документу, получите к нему доступ и сможете делать документ «живым»: изменять его и реагировать на действия пользователя. </div>
+			</div>
+			<div class="accordion">
+				<div class="accordion-header">
+					<span class="icon">+</span>
+					<h3>Продвинутый JavaScript</h3>
+				</div>
+				<div class="accordion-body">Освоите инструменты, ускоряющие работу, научитесь на профессиональном уровне работать с формами: проводить валидацию, использовать продвинутые элементы — слайдеры, календари, файлы, а также познакомитесь с API, предоставляемым браузером: геолокацией, нотификацией, медиа, веб-сокетами. И через анимацию добавите интерактивность в свои приложения.</div>
+			</div>
+			<div class="accordion">
+				<div class="accordion-header">
+					<span class="icon">+</span>
+					<h3>Основы дизайна</h3>
+				</div>
+				<div class="accordion-body">Узнаете о принципах графического дизайна и научитесь работать с композицией, формой и цветом. Попрактикуетесь в создании коллажей, композиций и абстракций, нарисуете логотип для собственного бренда. Видеокурс включает конспекты, дополнительные материалы для изучения, тесты и задания с самопроверкой.</div>
+			</div>
+		</div>
+	</section>
+	<section class="team" id="team">
+		<div class="team-container">
+			<div class="heading-team">
+				<h2>Ваши преподаватели</h2>
+				<p>Это опытные разработчики ведущих компаний</p>
+			</div>
+			<div class="container">
+				<div class="team-card" >
+					<div class="content-card" >
+						<div class="imgBx"><img src="images/pic2.jpg" alt="Александр_Ларченко" /></div>
+						<h2 class="team-h2">Преподаватель</h2>
+						<h3 class="team-h3">Александр Ларченко</h3>
+						<p>Ведущий frontend разрабочик </p>
+					</div>
+				</div>
+				<div class="team-card" >
+					<div class="content-card" >
+						<div class="imgBx"><img src="images/pic1.jpg" alt="Александр_Лонин" /></div>
+						<h2 class="team-h2">Ассистент</h2>
+						<h3 class="team-h3">Александр Лонин</h3>
+						<p>Frontend разрабочик в Teco </p>
+					</div>
+				</div>
+				<div class="team-card" >
+					<div class="content-card">
+						<div class="imgBx"><img src="images/pic3.jpg" alt="Валентина_Шекова" /></div>
+						<h2 class="team-h2">Куратор</h2>
+						<h3 class="team-h3">Валентина Шекова</h3>
+						<p> Senior Javascript в Moldtelecom </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="sheldue" id="sheldue">
+		<div class="sheldue-container">
+			<div class="heading white">
+				<h2>Расписание</h2>
+				<p>Подберите удобную дату начала занятий</p>
+			</div>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Начало</th>
+						<th>Время занятий</th>
+						<th>Дни</th>
+						<th>Тип</th>
+						<th>Статус</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td data-label="Начало">1 июня 2022</td>
+						<td data-label="Время занятий">9:00 - 13.00</td>
+						<td data-label="Дни">Выходные</td>
+						<td data-label="Тип">Онлайн</td>
+						<td data-label="Статус"><span class="text_open">[ набор закрыт ]</span></td>
+						<td data-label="#contact"> <a href="#contact" class="btn-z">Записаться</a></td>
+					</tr>
+					<tr>
+						<td data-label="Начало">21 июня 2022</td>
+						<td data-label="Время занятий">17:00 - 22.00</td>
+						<td data-label="Дни">Будни</td>
+						<td data-label="Тип">Офлайн</td>
+						<td data-label="Статус"><span class="text_open">[ набор открыт ]</span></td>
+						<td data-label="#contact"> <a href="#contact" class="btn-z">Записаться</a></td>
+					</tr>
+					<tr>
+						<td data-label="Начало">1 июля 2022</td>
+						<td data-label="Время занятий">9:00 - 13.00</td>
+						<td data-label="Дни">Выходные</td>
+						<td data-label="Тип">Онлайн</td>
+						<td data-label="Статус"><span class="text_open">[ набор открыт ]</span></td>
+						<td data-label="#"> <a href="#contact" class="btn-z">Записаться</a></td>
+					</tr>
+					<tr>
+						<td data-label="Начало">21 июля 2022</td>
+						<td data-label="Время занятий">17:00 - 22.00</td>
+						<td data-label="Дни">Будни</td>
+						<td data-label="Тип">Офлайн</td>
+						<td data-label="Статус"><span class="text_open">[ набор открыт ]</span></td>
+						<td data-label="#"> <a href="#contact" class="btn-z">Записаться</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+	<footer class="contact-content" id="contact">
+		<div class="heading-white">
+			<h2>Напишите нам</h2>
+			<p>Если хотите записаться на курс или задать вопрос запоните форму ниже</p>
+		</div>
+	
+		<div class="contact-content-wrapper">
+			<div class="contact-contentBx">
+				<div class="contactInfo">
+					<h3>Контактная информация</h3>
+					<div class="contactInfoBx">
+						<div class="box">
+							<div class="icon"><i class="fa fa-map-marker"></i></div>
+							<div class="text">
+								<h3>Адрес</h3>
+								<p>ул.Мира 9, <br>Тараклия, Тараклийский район, <br> Молдова, MD-2476 </p>
+								<a href="https://goo.gl/maps/rDf7CSymGbufBYzV7">Посмотреть на карте</a>
+							</div>
+						</div>
+						<div class="box">
+							<div class="icon">
+								<i class="fa fa-phone"></i>
+							</div>
+							<div class="text">
+								<h3>Телефон</h3>
+								<p>+373 294 24 906</p>
+							</div>
+						</div>
+						<div class="box">
+							<div class="icon">
+								<i class="fa fa-envelope"></i>
+							</div>
+							<div class="text">
+								<h3>Email</h3>
+								<p>info@tdu-tar.md</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="formBx">
+				<form autocomplete="off" id="formular">
+					<h3>Записаться на курс</h3>
+					<input type="text" placeholder="Представьтесь" required id="nume" />
+					<input type="email" placeholder="Email" required id="email" />
+					<input type="text" placeholder="Тема" required id="subject" />
+					<Textarea placeholder="Ваше сообщение" required id="message"></Textarea>
+					<input type="submit" value="Отправить" onclick="send()">
+				</form>
+			</div>
+		</div>	
+	
+	</footer>
+	<div class="copyright">
+		<p>Copyright 2022. All Right Reserved.</p>
+	</div>
+	
+	<script src="javascript/script.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<script>
+$(document).ready(function(){
+	$('.accordion-header').click(function(){
+		$('.accordion .accordion-body').slideUp();
+		$(this).next('.accordion-body').slideDown();
+		$('.accordion .accordion-header .icon').text('+');
+		$(this).children('.icon').text('-');
+	});	
+});
+	</script>
+<script type="text/javascript" src="javascript/vanilla-tilt.js"></script>
+<script>
+	VanillaTilt.init(document.querySelectorAll(".team-card"), {
+	max: 10,
+	speed: 200,
+	glare: true,
+  "max-glare": 1,
+});
+	</script>
+
+</body>
+</html>
